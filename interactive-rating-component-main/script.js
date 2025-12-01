@@ -1,6 +1,6 @@
 window.addEventListener("DOMContentLoaded", () => {
     const container = document.body;
-    container.innerHTML = `<div class="cart cart-submit">
+    container.innerHTML = `<main><div class="cart cart-submit">
             <div class="cart_logo">
                 <img src="./images/icon-star.svg" alt="star" />
             </div>
@@ -24,7 +24,7 @@ window.addEventListener("DOMContentLoaded", () => {
         </div>
         <div class="cart cart-complete">
             
-        </div>`;
+        </div> </main>`;
     const numberBtns = document.querySelectorAll(".number-btn");
     const submitBtn = document.querySelector(".submit-btn");
     const cartSubmit = document.querySelector(".cart-submit");
